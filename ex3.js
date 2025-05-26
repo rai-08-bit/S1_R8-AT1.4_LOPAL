@@ -13,7 +13,7 @@ do {
 
     do {
 
-        alturas[i] = parseInt(prompt(`Digite a altura de ${nomes[i]}:`));
+        alturas[i] = parseFloat(prompt(`Digite a altura de ${nomes[i]}:`));
 
     } while (isNaN(alturas[i]) || alturas <= 0 || alturas > 3);
 
@@ -33,15 +33,15 @@ let maiorAltura = alturas[0];
 let menorNome = nomes[0];
 let menorAltura = alturas[0];
 
-for (let i = 0; i < quantidade; i++) {
+for (let j = 0; j <=i ; j++) {
     if (alturas[i] > maiorAltura) {
-        maiorNome = nomes[i];
-        maiorAltura = alturas[i];
-        maPosicao = i;
-    } else if (alturas[i] < menorAltura) {
-        menorNome = nomes[i];
-        menorAltura = alturas[i];
-        mePosicao = i;
+        maiorNome = nomes[j];
+        maiorAltura = alturas[j];
+        maPosicao = j;
+    } else if (alturas[j] < menorAltura) {
+        menorNome = nomes[j];
+        menorAltura = alturas[j];
+        mePosicao = j;
     }
 } 
 
