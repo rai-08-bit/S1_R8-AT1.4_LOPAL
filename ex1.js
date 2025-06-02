@@ -38,7 +38,6 @@ for (let i = 0; i < 4 ; i++) {
     }
 }
 
-alert(`A maior idade é: ${maiorIdade}`); //
-alert (`A posição em que ela foi digitada é: ${posicaoMaior}`); //
-=======
+alert(`A maior idade é: ${maiorIdade}`); 
+alert (`A posição em que ela foi digitada é: ${posicaoMaior}`); 
 alert(`A maior idade é: ${maiorIdade}`);
